@@ -1,0 +1,17 @@
+1. telepítse a Nodejs-t (https://nodejs.org/en/)
+2. hozzon létre egy könyvtárat egy olyan helyre amit könnyen megtalál (pl c:/web)
+3. nyisson terminál ablakot
+4. menjen bele a létrehozott könyvtárba
+5. írja be a következő parancsokat:
+npm install express
+npm install client-sessions
+npm install mysql
+npm install pug
+6. tömörítse bele a könyvtárba a router.zip-et
+7. a config mappába talál egy solgok.sql-t, azt dumpolja bele MySQL-be
+8. állítsa be a mysql_config-js-ben hogy hova mit tett, meg ilyenek  
+9. győződjön meg róla, hogy a router.js mappájában van-e
+10. írja be parancssorba, hogy: 
+node router.js
+11. Ha kiírja hogy írja be a böngészőbe, hogy localhost:3000, akkor: írja be a böngészőbe, hogy localhost:3000
+12. Kész, próbálja ki az appot!

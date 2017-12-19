@@ -1,0 +1,22 @@
+html(lang="hu")
+ head
+  title Node App
+  link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css")
+  link(rel="stylesheet" href="css")
+ body
+  center
+   h3 Rügzített elemek listája
+   br
+   a(href='/') Vissza a főoldalra
+   br
+   a(href='/szures') További elemek felvétele, szűrés
+   br   
+   br     
+   table
+    tr
+     th(colspan=2) Lista
+    - for (var elem of rows) 
+       tr
+        td #{elem.id} 
+        td.l #{elem.nevuk}
+  

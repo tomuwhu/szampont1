@@ -1,0 +1,21 @@
+th {
+	text-align: center;
+	background: #dedede;
+	height: 38px;
+}
+td {
+	text-align: center;
+	height:27px;
+	padding:4px;
+}
+td.l {
+	text-align: left;
+}
+tr:nth-child(odd) {
+	background:rgba(205,205,194,0.68);
+}
+table {
+	border: 1px solid rgba(55,86,104,0.88);
+	width: 200px;
+	padding:20px;
+}

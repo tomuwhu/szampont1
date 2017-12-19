@@ -1,0 +1,17 @@
+html(lang="hu")
+ head
+  title Node App
+  link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css")
+  link(rel="stylesheet" href="css")
+ body
+  center
+   h3 Node minta-alkalmazások
+   br
+   table
+    tr
+     th Menü
+    - for (var app of al) 
+       tr
+        td
+         a(href=app.location) #{app.appnev}
+       

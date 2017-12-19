@@ -1,0 +1,22 @@
+html(lang="hu")
+ head
+  title Node App
+  link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css")
+  link(rel="stylesheet" href="css")
+ body
+  center
+    br
+    br
+    h4 Bejelentkezés
+    br    
+    form(method='post',action='/login')
+      input(name='email')
+      br
+      br    
+      input(name='password',type='password')
+      br
+      br  
+      input(type='submit',value='bejelentkezés')
+      br
+      br
+      a(href='/') vissza a főoldalra

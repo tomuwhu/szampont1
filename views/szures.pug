@@ -1,0 +1,27 @@
+html(lang="hu")
+ head
+  title Szűrés post példa
+  link(  rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css')
+  link(  rel='stylesheet' href='css')
+  script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js')
+  script(src='szures.js')
+body
+ center
+  br
+  h3 Szűrés példa
+  h4 bejelentkezve: #{sess.user}
+  a(href='/') vissza a főoldalra     
+  br
+  br  
+  table
+   tr
+    th Szűrés
+   tr
+    td
+     input#szur
+   tr
+    td
+     button#felvesz Felvesz a listába
+   tr
+    td
+      #cica 
